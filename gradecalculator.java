@@ -3,7 +3,7 @@ package project2;
 import java.util.Scanner;
 
 public class gradecalculator {
-    public static void main(string [] args) {
+    public static void main(String[] args) {
         Scanner ar =new Scanner(System.in);
         System.out.print("Enter your total number of subject  = ");
         int numsubject =ar.nextInt();
