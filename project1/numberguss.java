@@ -21,12 +21,10 @@ public class numberguss {
             attempt ++;
             if (userguess == Numberguss) {
                 System.out.println("hey correct guesses "+attempt +" your number ");
-                break ;
                 
             }
             else if(userguess < Numberguss) {
                 System.out.println("Try to higher number ");
-                break ;
                 
             } else {
                 System.out.println("Try to lower number ");
@@ -36,8 +34,9 @@ public class numberguss {
 
             if (attempt == maxattemp){
                 System.out.println("sorry you have reached to maximux attempts " + Numberguss);
+                System.out.println("THanks for playing! ");
             }
-            System.out.println("THanks for playing! ");
+           
         }
     }
     
